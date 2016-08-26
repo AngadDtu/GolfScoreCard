@@ -4,6 +4,11 @@ public class Hole {
     private int mHoleNumber;
     private int mCount;
 
+    public Hole(int holeNumber, int count){
+        mCount=count;
+        mHoleNumber=holeNumber;
+    }
+
     public int getHoleNumber() {
         return mHoleNumber;
     }
